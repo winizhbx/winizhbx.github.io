@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+<title>Bingxin Zhang</title> 
+<meta charset="UFT-8">
+<meta name="description" content="Personal Website">
+<meta name="author" content="Bingxin Zhang">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="http://www.w3schools.com/lib/w3.css">
+<!-- <link rel="stylesheet" href="styles.css"> -->
+<!-- <style>
+body {
+    font-family: Verdana,sans-serif;
+    font-size: 0.9em;
+}
+
+header, footer {
+    padding: 10px;
+    color: white;
+    background-color: black;
+}
+
+section {
+    margin: 5px;
+    padding: 10px;
+    background-color: lightgrey;
+}
+
+article {
+    margin: 5px;
+    padding: 10px;
+    background-color: white;
+}
+
+nav ul {
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 5px;
+}
+nav ul li a{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 16px;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    background-color: #111111;
+}
+</style> -->
+
+<style>
+h1 {
+    color: black;
+    font-family: verdana;
+    font-size: 300%;
+    text-align:center;
+}
+p  {
+    color: red;
+    font-family: courier;
+    font-size: 160%;
+    border: 1px solid powderblue;
+    padding: 30px;
+    margin: 50px;
+    text-align:center;
+}
+
+ul.topnav {
+
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    background-color: #444444;
+}
+
+ul.topnav li {
+    float: left;
+    border-right: 1px solid #bbb;
+}
+
+ul.topnav li.right {float: right;}
+
+ul.topnav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 16px;
+    text-decoration: none;
+}
+
+ul.topnav li a:hover:not(.active) {
+    background-color: #111111;
+}
+
+ul.topnav li a.active {
+    background-color: #4CAF50;
+}
+
+@media screen and (max-width: 600px){
+    ul.topnav li.right, 
+    ul.topnav li {float: none;}
+}
+
+body {
+    background-image: url("background.jpg");
+    background-repeat: no-repeat;
+    background-position: 30% 20%;
+    background-attachment: fixed;
+    margin: 0;
+}
+
+</style>
+
+
+</head>
+
+
+
+<body>
+
+<!-- <div class="w3-container w3-orange">
+  <h1>Bingxin Zhang</h1>         
+</div> -->
+
+<ul class="topnav">
+  <li><a class="active" href="#Home">Home</a></li>
+  <li><a href="#news">News</a></li>
+  <li><a href="#contact">Contact</a></li>
+  <li class="right"><a href="#about">About</a></li>
+</ul>
+
+
+
+
+
+
+<p title = "Bingxin"  id = "top" style="font-size: 30px; color:rgb(50,100,100);text-align:center;font-family:verdana;"><b>
+Bingxin Zhang</b>
+</p>
+
+<div style="text-align:center"> 
+<a href="http://www.w3schools.com"> <img src="me.jpg" alt="HTML tutorial" style="font-family:verdana;width:300px;border:10;float:middle;"></a>
+</div>
+
+<h1>What Can JavaScript Do?</h1>
+
+<p id="demo">JavaScript can change HTML content &pound.</p>
+
+<button type="button" onclick="document.getElementById('demo').innerHTML = 'Hello JavaScript!'">Click Me!</button>
+<br>
+
+<img id="myImage" src="me.jpg" style="width:200px;">
+
+<br>
+
+<button type="button" onclick="document.getElementById('demo').style.fontSize='35px'">Click Me!</button>
+
+
+<!-- <pre>
+<code>
+var x = 5;
+var y = 6;
+document.getElementById("demo").innerHTML = x + y;
+</code>
+</pre> -->
+<br><br>
+<input type="button" style="font-size: 40px;text-align: center;" onclick="alert('Hello My Friend!')" value="Hello!"><br>
+
+<br><br>
+<form action="action_page.php">
+  First name: <input type="text" name="fname"><br>
+  Last name: <input type="text" name="lname"><br>
+<input type="image" src="s.png" alt="Submit" width="48" height="48"><br>
+</form>
+
+<!-- <form action="hhh">
+  First name:<br>
+  <input type="text" name="firstname" value="Mickey">
+  <br>
+  Last name:<br>
+  <input type="radio" name="lastname" value="Mouse" checked>Mouse<br>
+  <input type="radio" name="lastname" value="My">My<br>
+  <br>
+  <input type="submit" value="Submit">
+</form>  -->
+<br>
+
+<dialog>
+</dialog>
+
+<textarea name="message" rows="10" cols="30">
+The cat was playing in the garden.
+</textarea>
+<br><br>
+
+
+<div style="text-align:center"> 
+<iframe src="http://watson.engin.umich.edu" style="border:2px solid grey;" height="500" width="1000" ></iframe>
+<wbr>
+<br>
+
+
+<!--  <p>
+	<embed src=”http://static.hdslb.com/miniloader.swf?aid=4283751″ quality=”high” allowfullscreen=”true” width=”550″ height=”400″>
+</p> -->
+
+<iframe width="1000" height="600" src="http://www.bilibili.com/video/av4283751/" quality=”high”>
+</iframe>
+
+<br><br>
+
+<br><br>
+<a href="#top" >Visit the Top Section</a>
+</div>
+
+</body>
+</html>
